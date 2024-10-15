@@ -13,7 +13,7 @@ int, long int, float, double, long double, char e char[].
 	float    f     = input_f("Digite um float: ");                
 	double lf      = input_lf("Digite um double: ");              
 	long double Lf = input_Lf("Digite um long double: "); 
-	char s;          input_s("Digite uma string: ",s,sizeof(s)); 
+	char s[10];      input_s("Digite uma string: ",s,sizeof(s)); 
 
 2)Ocorrendo overflow, os tipos retornarão:
 
